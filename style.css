@@ -1,0 +1,46 @@
+body{
+    background-color: #260546;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+form{
+    background-color: #19032F;
+    color: white;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #8037DD;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+}
+
+.div_form{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credenciais{
+    display: flex;
+    flex-direction: column;
+}
+
+.credenciais input{
+    width: 60%;
+    padding: 8px;
+    border-radius: 10px;
+}

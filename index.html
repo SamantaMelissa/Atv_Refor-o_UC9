@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form onsubmit="verificacaoCampos()">
+            <div class="div_form">
+                <h1>Login</h1>
+                    <div class="credenciais">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="credenciais">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha">
+                    </div>
+                <button>Entrar</button>
+            </div>
+        </form>
+    </main>
+</body>
+<script>
+
+let emailinicial = document.getElementById("email");
+let senhainicial = document.getElementById("senha");
+
+function verificacaoCampos(){
+
+    let email = emailinicial.value;
+    let senha = senhainicial.value;
+
+    if(email == ""){
+        alert("O campo email está vazio!!!");
+    }else if(senha == ""){
+        alert("Falta preencher a senha!!!");
+    }else{
+        alert("Você está logado!!!")
+    }
+
+    if(email == "samanta@email"){
+        alert("Você está banidooo!!")
+    }
+}
+
+</script>
+</html>
